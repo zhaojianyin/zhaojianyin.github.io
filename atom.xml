@@ -31,12 +31,12 @@
     
     </summary>
     
-      <category term="mysql" scheme="http://yoursite.com/categories/mysql/"/>
+      <category term="mysql" scheme="http://yoursite.com/public/categories/mysql/"/>
     
     
-      <category term="mysql" scheme="http://yoursite.com/tags/mysql/"/>
+      <category term="mysql" scheme="http://yoursite.com/public/tags/mysql/"/>
     
-      <category term="mysql主从复制" scheme="http://yoursite.com/tags/mysql%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6/"/>
+      <category term="mysql主从复制" scheme="http://yoursite.com/public/tags/mysql%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6/"/>
     
   </entry>
   
@@ -53,10 +53,10 @@
     
     </summary>
     
-      <category term="mysql" scheme="http://yoursite.com/categories/mysql/"/>
+      <category term="mysql" scheme="http://yoursite.com/public/categories/mysql/"/>
     
     
-      <category term="user" scheme="http://yoursite.com/tags/user/"/>
+      <category term="user" scheme="http://yoursite.com/public/tags/user/"/>
     
   </entry>
   
