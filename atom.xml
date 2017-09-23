@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-23T07:03:25.968Z</updated>
+  <updated>2017-09-23T07:31:56.181Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,17 +17,17 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>“蘑菇蘑菇街笔试算法</title>
+    <title>唯品会笔试算法</title>
     <link href="http://yoursite.com/2017/09/23/%E2%80%9C%E8%98%91%E8%8F%87%E8%98%91%E8%8F%87%E8%A1%97%E7%AC%94%E8%AF%95%E7%AE%97%E6%B3%95/"/>
     <id>http://yoursite.com/2017/09/23/“蘑菇蘑菇街笔试算法/</id>
     <published>2017-09-23T07:00:07.000Z</published>
-    <updated>2017-09-23T07:03:25.968Z</updated>
+    <updated>2017-09-23T07:31:56.181Z</updated>
     
     <content type="html"><![CDATA[<h3 id="今天是第几天"><a href="#今天是第几天" class="headerlink" title="今天是第几天"></a>今天是第几天</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line">import java.text.SimpleDateFormat;</div><div class="line">import java.util.Calendar;</div><div class="line">import java.util.Scanner;</div><div class="line"></div><div class="line">public class Main &#123;</div><div class="line">public static void main(String[] args) &#123;</div><div class="line">Scanner sc = new Scanner(System.in);</div><div class="line">while (sc.hasNext()) &#123;</div><div class="line">String dateStr = sc.nextLine();</div><div class="line">String[] strings = dateStr.split(&quot; &quot;);</div><div class="line">dateStr = strings[0]+&quot;/&quot;+strings[1]+&quot;/&quot;+strings[2];</div><div class="line">SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyy/MM/dd&quot;);</div><div class="line">java.util.Date startDate = null;</div><div class="line">try &#123;</div><div class="line">startDate = sdf.parse(dateStr);</div><div class="line">&#125; catch (Exception e) &#123;</div><div class="line">e.printStackTrace();</div><div class="line">&#125;</div><div class="line">Calendar startCalendar = Calendar.getInstance();</div><div class="line">startCalendar.setTime(startDate);</div><div class="line">int index = startCalendar.get(Calendar.DAY_OF_YEAR);</div><div class="line">System.out.println(index);</div><div class="line"></div><div class="line">&#125;</div><div class="line">&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure><p>很桑，前面的题做的时间太短，就怕这道不会，结果这么简单，很无奈啊</p>]]></content>
     
     <summary type="html">
     
-      蘑菇街2017年校招笔试算法今天是第几天
+      唯品会2017年校招笔试算法今天是第几天
     
     </summary>
     
